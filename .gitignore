@@ -1,0 +1,49 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs/
+*.log
+npm-debug.log
+yarn-debug.log
+pm2.log
+debug.log
+error.log
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
+*.db-wal
+*.db-shm
+*.local
+
+# IDE and OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# Build artifacts
+dist/
+build/
+coverage/
+
+# Ignore test coverage
+coverage/
+.nyc_output/
+
+# Ignore uploads (if storing files)
+uploads/
